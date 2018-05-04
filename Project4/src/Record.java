@@ -38,7 +38,7 @@
 	  }
 	  
 	  // returns the value of the name in the given year. Use the convention that year=0 is 1880, year=1 is 1881, and so on.
-	  public int getvalue(int year) {
+	  public int getValue(int year) {
 		  return valueNumbers[year];
 	  }
 	  
@@ -57,7 +57,7 @@
 		  }
 		  
 		  // add the start 
-		  return START + highestYear;
+		  return highestYear;
 		  
 	  }
   }
